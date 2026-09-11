@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#55FFE2"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi login"
+        android:textSize="30dp"
+        >
+
+    </TextView>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="100dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+
+
+        >
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/usuario"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="15dp"
+            android:inputType="text"
+            android:gravity="left"
+            android:hint="Digita tu usuario..." />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="90dp"
+        android:textSize="20dp"
+        android:textColor="@color/white">
+    </TextView>
+    <EditText
+        android:id="@+id/contras"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="50dp"
+        android:gravity="left"
+        android:hint="Digite su contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/botoningresar"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Ingresar"
+        app:backgroundTint="#F05B21"/>
+
+
+</LinearLayout>
